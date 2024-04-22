@@ -1,0 +1,91 @@
+.chat-item{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 250px;
+    margin: 15px;
+}
+.profile-holder{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 29px;
+    width: 29px;
+    border-radius: 27px;
+    margin-right: 5px;
+}
+.initial{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+.message-section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 85%;
+}
+.name-time-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name{
+    font-size: 23px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-right: 15px;
+}
+.time{
+    font-size: 15px;
+    color: #7e8286;
+    font-family: 'Roboto';
+}
+.message-card{
+    background-color: #ffffff;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+    min-width: 15px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+.message{
+    font-size: 25px;
+    color: #202122;
+    font-family: 'Roboto';
+}
+.likes-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+.like-button{
+    height: 30px;
+    width: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.count{
+    font-size: 14px;
+    color: #202122;
+    font-family: 'Roboto';
+}

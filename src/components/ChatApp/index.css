@@ -1,0 +1,50 @@
+.app-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #E6EDf5;
+}
+.hr-line{
+    color: #7e8286;
+    width: 100%;
+}
+.chats-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 70vh;
+    width: 100vw;
+}
+.message-input-holder{
+    height: 50px;
+    width: 1300px;
+    border: 1px #7e8286 solid;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.message-input{
+    height: 100%;
+    width: 95%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #0f1010;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+}
+.send-button{
+    height: 100%;
+    width: 4%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.mention-list{
+    display: flex;
+    flex-direction: column;
+    
+}
